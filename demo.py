@@ -1,9 +1,8 @@
-def my_function():
-
- a=5
-b=9
-
-return d
+def add_numbers(a, b):
+    result = a + b
+    return result
 
 
-my_function()
+# Example usage:
+sum_value = add_numbers(5, 3)
+print(sum_value)  # Output will be 8
